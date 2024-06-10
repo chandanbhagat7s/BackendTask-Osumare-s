@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1717925468001,
+        "name": "chandan",
+        "email": "chandan@gmail.com",
+        "password": "chandan@gmail.com",
+        "task": []
+    },
+    {
+        "id": 1717925611646,
+        "name": "chandan",
+        "email": "chandan2@gmail.com",
+        "password": "chandan@gmail.com",
+        "task": [
+            {
+                "title": "chandan",
+                "description": "new one and new to be made",
+                "tag": "party",
+                "createdAt": "6/9/2024",
+                "id": 1717927265955
+            },
+            {
+                "title": "another One",
+                "description": "please enter all the fields to create your task",
+                "tag": "party",
+                "createdAt": "3:31:42 PM",
+                "id": 1717927302784
+            },
+            {
+                "title": "third One",
+                "description": "please enter all the fields to create your task",
+                "tag": "party",
+                "createdAt": "3:32:41 PM 6/9/2024",
+                "id": 1717927361462
+            }
+        ]
+    },
+    {
+        "id": 1717927858721,
+        "name": "chandan",
+        "email": "adi@gmail.com",
+        "password": "chandan@gmail.com"
+    }
+]

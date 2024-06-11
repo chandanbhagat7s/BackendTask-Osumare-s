@@ -19,6 +19,7 @@ app.use(express.json())
 
 
 
+// documentation link       https://documenter.getpostman.com/view/36226497/2sA3XMhNJi
 
 //defining the routes 
 app.use("/api/v1/user", userRoutes)

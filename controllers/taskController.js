@@ -91,7 +91,20 @@ exports.getTask = catchAsync(async (req, res, next) => {
 
     }
 
-    let task = user?.task.filter(el => task.id == taskId)
+    // if (!user?.task?.) {
+
+    // }
+
+    // let found = Object.values({ ...user?.task }).includes(taskId)
+
+    // if (!found) {
+    //     return next(new appError("no task found with this id  ", 400))
+    // }
+
+    let taskdata = user?.task?.filter(task => task.id == taskId)
+
+    console.log(taskdata);
+
 
 
 
@@ -99,7 +112,7 @@ exports.getTask = catchAsync(async (req, res, next) => {
 
     res.status(200).send({
         status: "success",
-        data: task ? task : "no task found with this id"
+        data: taskdata.length > 0 ? taskdata : "no task found with this id"
     })
 })
 

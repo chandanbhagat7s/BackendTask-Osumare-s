@@ -12,7 +12,7 @@ exports.isLoggedIn = catchAsync(async (req, res, next) => {
     }
 
     if (!token) {
-        return next(new appError("please login with authorization with the login key 😂", 400))
+        return next(new appError("please login and user  authorization  login key 😂", 400))
     }
 
     const user = JSON?.parse(token)

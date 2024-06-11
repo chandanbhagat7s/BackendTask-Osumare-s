@@ -44,7 +44,12 @@ exports.signup = catchAsync(async (req, res, next) => {
 
     res.status(201).send({
         status: "success",
-        message: "user created 😊"
+        message: "user created 😊",
+        loginKey: {
+            id: user.id,
+            password: user.password,
+            email: user.email
+        }
     })
 
 })
